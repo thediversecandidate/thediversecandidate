@@ -1,0 +1,31 @@
+{
+  "name": "thediversecandidate",
+  "version": "1.0.0",
+  "description": "The Diverse Candidate - AI-Driven Innovation Hub exploring voice, language, and diversity-focused automation",
+  "homepage": "https://thediversecandidate.github.io/thediversecandidate",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx serve .",
+    "build": "echo 'Static site - no build needed'",
+    "deploy": "gh-pages -d ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/thediversecandidate/thediversecandidate.git"
+  },
+  "keywords": [
+    "ai",
+    "diversity",
+    "voice-recognition",
+    "automation",
+    "innovation",
+    "technology",
+    "machine-learning"
+  ],
+  "author": "The Diverse Candidate",
+  "license": "MIT",
+  "devDependencies": {
+    "serve": "^14.0.0",
+    "gh-pages": "^6.0.0"
+  }
+}
